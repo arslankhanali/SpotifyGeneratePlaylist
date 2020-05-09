@@ -1,3 +1,7 @@
+"""
+Make sure you have added info to spotify.py
+Have downloaded YOUR_CLIENT_SECRET_FILE.json
+"""
 import requests
 import sys
 import youtube_dl

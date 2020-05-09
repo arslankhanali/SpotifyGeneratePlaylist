@@ -18,7 +18,7 @@ A script that takes a name of the playlist on Youtube, and generates a Spotify p
 * [Youtube_dl v 2020.01.24]
 
 ## LocalSetup
-1) Install [python3] and [virtualenv] and than install dependancies in that venv 
+1) Install [python3] and [virtualenv] and than install dependancies in that venv   
 Open terminal and run
 ```python
 virtualenv venv # create a virtual environmnet
@@ -40,7 +40,7 @@ pip3 install -r requirements.txt # install all required packages
     - Create credential and choose OAuth client id
     - Application type as desktop app
     - Give any name
-    - Simple Download it and save name as "YOUR_CLIENT_SECRET_FILE.json"
+    - Simple Download it and save name as "YOUR_CLIENT_SECRET_FILE.json"   
     For more information visit [How to make OAuth]
    
 

@@ -90,7 +90,7 @@ with shelve.open('shelve.db') as db:
 ![alt text](images/spotify_api.png)
 
 ## Acknowledgement  
-* Inipired from [The come up]. Check her [Youtube Video]
+* Inspired from [The come up]. Check her [Youtube Video]
 * Fixes some issues in it and increases it's scope to use any playlist in youtube
 
 ## Cheers
@@ -102,17 +102,20 @@ RC
    [Requests Library v 2.22.0]: <https://requests.readthedocs.io/en/master/>
    [Youtube_dl v 2020.01.24]:<https://github.com/ytdl-org/youtube-dl/>
    
-   [Account Overview]: <https://www.spotify.com/us/account/overview/>
-   [Get Oauth]: <https://developer.spotify.com/console/post-playlists/>
-   [Set Up Youtube Oauth]: <https://developers.google.com/identity/protocols/oauth2>
-   [Youtube Video]:<https://www.youtube.com/watch?v=7J_qcttfnJA/>
-  
-   [console google]:<https://console.developers.google.com/>
    [virtualenv]:<https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/>
    [python3]:<https://www.python.org/downloads/>
+
+   [Account Overview]: <https://www.spotify.com/us/account/overview/>
+   [Get Oauth]: <https://developer.spotify.com/console/post-playlists/>
+
+   [console google]:<https://console.developers.google.com/>
    [How to make OAuth]:<https://developers.google.com/youtube/v3/guides/auth/installed-apps>
-   [The come up]:<https://github.com/TheComeUpCode/SpotifyGeneratePlaylist>
+   [Set Up Youtube Oauth]: <https://developers.google.com/identity/protocols/oauth2>
+
    [Youtube list items in a playlist Api]:<https://developers.google.com/youtube/v3/docs/playlistItems/list>
    [Spotify search API]:<https://developer.spotify.com/console/get-search-item/>
+
+   [The come up]:<https://github.com/TheComeUpCode/SpotifyGeneratePlaylist>
+   [Youtube Video]:<https://www.youtube.com/watch?v=7J_qcttfnJA/>
    
    

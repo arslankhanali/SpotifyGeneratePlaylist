@@ -63,7 +63,7 @@ def get_playlist_id_from_youtube(my_playlist_name,youtube):
     Future:
     
     """
-    
+    playlist_id=None
     request = youtube.playlists().list(
         part="snippet,contentDetails",
         maxResults=10,
@@ -323,6 +323,7 @@ def get_spotify_playlist_id(my_playlist_name):
     
     query = "https://api.spotify.com/v1/users/{}/playlists".format(
         spotify_user_id)
+    
     response = requests.post(
         query,
         data=request_body,
@@ -331,6 +332,7 @@ def get_spotify_playlist_id(my_playlist_name):
             "Authorization": "Bearer {}".format(spotify_token)
         }
     )
+
     response_json = response.json()
     # playlist id
     return response_json['id']
@@ -394,6 +396,7 @@ if __name__ == '__main__':
         my_playlist_name=sys.argv[1]
     except:
         my_playlist_name="All time Favourite"
+        
 
     #Get Youtube client
     youtube=get_youtube_client()

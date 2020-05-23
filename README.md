@@ -18,7 +18,7 @@ A script that takes a name of the playlist on Youtube, and generates a Spotify p
 * [Youtube_dl v 2020.01.24]
 
 ## LocalSetup
-1) Install [python3] and [virtualenv] and than install dependancies in that venv   
+1) Install [python3] and [virtualenv] and then install dependancies in that venv   
 Open terminal and run
 ```python
 virtualenv venv # create a virtual environmnet
@@ -50,7 +50,8 @@ Run following command in the terminal
 python3 add_songs.py "your_playlist_name"
 ```
     * you'll immediately see `Please visit this URL to authorize this application: <some long url>`
-    * click on it and log into your Google Account to collect the `authorization code` and then paste it back it
+    * click on it and log into your Google Account to collect the `authorization code` and then paste it back it  
+If you see "This app isn't verified", Click on 'advanced' and then on 'Go to testing (unsafe)'
 
 
 ## ToDo
@@ -67,7 +68,7 @@ be caused by an expired token. So just refer back to step 3 in local setup, and 
 python3 -i add_songs.py "your_playlist_name"
 ```
 * See which function gave you that error. Save all previous variables in shelve (shown in next step)
-* Try saving any variables (e.g youtube,spotify_playlist_id) in a shelve. So you dont have to authorise permission from Google each time we run it or run all previous functions again.
+* Try saving any variables (e.g youtube,spotify_playlist_id) in a shelve. So you don't have to authorise permission from Google each time we run it or run all previous functions again.
 ```
 with shelve.open('shelve.db') as db:
          db["youtube"] = youtube
@@ -94,7 +95,7 @@ with shelve.open('shelve.db') as db:
 * Fixes some issues in it and increases it's scope to use any playlist in youtube
 
 ## Cheers
-Feel free to fork, fix and add more features
+Feel free to fork, fix and add more features  
 RC
 
    [Youtube Data API v3]: <https://developers.google.com/youtube/v3>

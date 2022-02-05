@@ -90,9 +90,6 @@ with shelve.open('shelve.db') as db:
 - [Spotify search API]
 ![alt text](images/spotify_api.png)
 
-## Acknowledgement  
-* Inspired from [The come up]. Check her [Youtube Video]
-* Fixes some issues in it and increases it's scope to use any playlist in youtube
 
 ## Cheers
 Feel free to fork, fix and add more features  
